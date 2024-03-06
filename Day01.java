@@ -1,3 +1,4 @@
+// this code will not run unless you change the classname to file name.
 class Solution {
     public int removeDuplicates(int[] nums) {
         int uniqueElementIndex = 0;
@@ -12,13 +13,15 @@ class Solution {
     }
 }
 
-/*NOTES:
+/*
  * Problem Name: 26. Remove Duplicates from Sorted Array
  * Problem Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
  * 
  * INPUT: nums = [1,1,2]
  * OUTPUT: 2, [1,2,_]
  * 
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
  * 
  * checking unique elements
  * unique element checking index starts at 0, u
